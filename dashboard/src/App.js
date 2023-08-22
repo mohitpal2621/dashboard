@@ -1,10 +1,11 @@
 import React from 'react';
-import DataList from './Components/Datalist';
+import Dashboard from './Components/Dashboard';
 
 const App = () => {
   return (
-    <DataList />
-  );
-}
+      <Dashboard/>
+    );
+};
+
 
 export default App;

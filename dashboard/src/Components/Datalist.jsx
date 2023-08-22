@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function DataList() {
-    axios.defaults.baseURL = 'http://localhost:5000/api';   
+  axios.defaults.baseURL = 'http://localhost:5000/api';   
   const [dataList, setDataList] = useState([]);
 
   useEffect(() => {
